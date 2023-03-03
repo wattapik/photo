@@ -8,10 +8,9 @@ with open('index.html', 'w', encoding="utf-8") as f:
    f.write('''<!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>TED A. ⭕ GALLERY</title>
+    <title>⭕ GALLERY</title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/porygon.gif">
     <meta name='robots' content='noindex,follow' />
     <style>
       body {
