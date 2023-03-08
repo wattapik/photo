@@ -19,7 +19,6 @@ jobs:
         run: 
             if ! git diff --exit-code; then
                 git add index.html;
-                git add rss;
-                git commit -am "GH Action Files added $(date)";
+                git commit -am "Update HTML";
                 git push -f origin main;
             fi
