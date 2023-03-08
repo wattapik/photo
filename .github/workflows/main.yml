@@ -2,6 +2,7 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
+  workflow_dispatch:
   
 jobs:
   build:
@@ -17,10 +18,8 @@ jobs:
         run: git config --local user.name actions-user
       - name: gitthree
         run: 
-            git remote set-url --add origin ${{ secrets.ssh }};
             if ! git diff --exit-code; then
                 git add index.html;
-                git show-ref --head --dereference;
                 git commit -am "Update HTML";
-                git push -f origin HEAD:main;
+                git push -f origin main;
             fi
