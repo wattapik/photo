@@ -46,7 +46,7 @@ def generate_html():
   with open('index.html', 'w', encoding="utf-8") as f:
     f.write(generate_html_header())
 
-    for filename in os.listdir('img'):
+    for filename in sorted(os.listdir('img')):
       f.write(generate_html_list_part(filename))
      
     f.write(generate_html_footer())
