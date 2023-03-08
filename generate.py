@@ -36,7 +36,7 @@ def generate_html_footer():
       <p>This is a work of fiction. <br>
       Names, characters, places and incidents either are products of the author’s imagination or are used fictitiously. <br>
       Any resemblance to actual events or locales or persons, living or dead, is entirely coincidental.</p>
-      <a href = "rss">rss</a>
+      <p><a href = "rss">rss</a> / <a href ="mailto:ted@pincurch.in">email</a> / <a href = "tedatpincurchin.gpg">gpg key</a></p>
       <p>CC BY-NC-SA 4.0, © TED A. ⭕ 2021-{datetime.datetime.now().year}</p>
     </body>
   </html>
