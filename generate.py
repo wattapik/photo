@@ -95,6 +95,7 @@ def generate_rss_footer():
 
 def generate_rss(image_list):
   items_in_order = get_twenty_newest_images_as_list(image_list)
+  print(image_list)
   with open('rss', 'w', encoding="utf-8") as f:
     f.write(generate_rss_header())
 
