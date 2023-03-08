@@ -19,7 +19,7 @@ jobs:
             git config --global user.name 'ted';
             git config --global user.email 'wattapik@users.noreply.github.com';
             if ! git diff --exit-code; then
-                git add index.html;
+                git add index.html rss;
                 git commit -am "Update HTML";
                 git push;
             fi
