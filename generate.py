@@ -1,5 +1,6 @@
 import os
 import mimetypes
+from email import utils
 import datetime
 
 URL = "https://sunspiral.city"
@@ -30,14 +31,13 @@ def generate_html_list_part(filename):
   return f'        <li><a href = "./img/{filename}">{filename}</a></li>\n'
 
 def generate_html_footer():
-  return '''      </ul>
+  return f'''      </ul>
 
-      <p>This is a work of fiction.
-      <br>
-      Names, characters, places and incidents either are products of the author’s imagination or are used fictitiously.
-      <br>
-      Any resemblance to actual events or locales or persons, living or dead, is entirely coincidental.</p>
+      <p>This is a work of fiction.</p>
+      <p>Names, characters, places and incidents either are products of the author’s imagination or are used fictitiously.</p>
+      <p>Any resemblance to actual events or locales or persons, living or dead, is entirely coincidental.</p>
       <a href = "rss">rss</a>
+      <p>CC BY-NC-SA 4.0, © TED A. ⭕ 2021-{datetime.datetime.now().year}</p>
     </body>
   </html>
   '''
@@ -76,6 +76,8 @@ def generate_rss_header():
       <link>{URL}</link>
     </image>
     <description>{PAGE_TITLE}</description>
+    <lastBuildDate>{str(utils.format_datetime(datetime.datetime.now()))[:-6]} GMT</lastBuildDate>
+    <copyright>© TED A. ⭕ 2021-{datetime.datetime.now().year}</copyright>
     '''
 
 def generate_rss_part(item):
@@ -88,6 +90,7 @@ def generate_rss_part(item):
                 <img src="{URL}/img/{item[0]}" alt="" />
             ]]>
       </description>
+      <pubDate>{str(utils.format_datetime(datetime.datetime.fromtimestamp(item[1])))[:-6]} GMT</pubDate>
       <guid>{item[0]} {item[1]}</guid>
     </item>'''
 
@@ -108,7 +111,7 @@ def generate_rss(image_list):
 def update_image_list():
   with open('current', 'w', encoding="utf-8") as f:
      for filename in os.listdir('img'):
-        f.write(f'{filename}END_NAME{os.path.getctime("img/" + filename)}\n')
+        f.write(f'{filename}END_NAME{os.path.getmtime("img/" + filename)}\n')
 
 def get_twenty_newest_images_as_list(image_list):
   image_list = sorted(image_list, key=lambda t: t[1])
