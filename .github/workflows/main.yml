@@ -19,6 +19,7 @@ jobs:
         run: 
             if ! git diff --exit-code; then
                 git add index.html;
+                git add .
                 git commit -am "Update HTML";
                 git push -f origin main;
             fi
