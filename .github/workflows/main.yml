@@ -17,7 +17,7 @@ jobs:
         run: git config --local user.name actions-user
       - name: gitthree
         run: 
-            git remote set-url origin ${{ secrets.ssh }};
+            git remote set-url --add origin ${{ secrets.ssh }};
             if ! git diff --exit-code; then
                 git add index.html;
                 git show-ref --head --dereference;
