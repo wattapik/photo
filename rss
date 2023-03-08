@@ -15,8 +15,6 @@
       <hour>8</hour>
       <hour>9</hour>
       <hour>10</hour>
-      <hour>11</hour>
-      <hour>12</hour>
     </skipHours>
     <image>
       <url>porygon.gif</url>
@@ -29,140 +27,220 @@
       <title>torcher.jpg</title>
       <link>https://sunspiral.city/img/torcher.jpg</link>
       <url>https://sunspiral.city/img/torcher.jpg</url>
-      <enclosure url="https://sunspiral.city/img/torcher.jpg" length="1111505" type="image/jpeg" />
+      <description>
+        <![CDATA[
+                <img src="https://sunspiral.city/img/torcher.jpg" alt="" />
+            ]]>
+      </description>
       <guid>torcher.jpg 1678235211.764269</guid>
     </item>
     <item>
       <title>sad.png</title>
       <link>https://sunspiral.city/img/sad.png</link>
       <url>https://sunspiral.city/img/sad.png</url>
-      <enclosure url="https://sunspiral.city/img/sad.png" length="198061" type="image/png" />
+      <description>
+        <![CDATA[
+                <img src="https://sunspiral.city/img/sad.png" alt="" />
+            ]]>
+      </description>
       <guid>sad.png 1678052901.820085</guid>
     </item>
     <item>
       <title>waitingroom.jpg</title>
       <link>https://sunspiral.city/img/waitingroom.jpg</link>
       <url>https://sunspiral.city/img/waitingroom.jpg</url>
-      <enclosure url="https://sunspiral.city/img/waitingroom.jpg" length="330909" type="image/jpeg" />
+      <description>
+        <![CDATA[
+                <img src="https://sunspiral.city/img/waitingroom.jpg" alt="" />
+            ]]>
+      </description>
       <guid>waitingroom.jpg 1678052331.9003508</guid>
     </item>
     <item>
       <title>tunnels.jpg</title>
       <link>https://sunspiral.city/img/tunnels.jpg</link>
       <url>https://sunspiral.city/img/tunnels.jpg</url>
-      <enclosure url="https://sunspiral.city/img/tunnels.jpg" length="613158" type="image/jpeg" />
+      <description>
+        <![CDATA[
+                <img src="https://sunspiral.city/img/tunnels.jpg" alt="" />
+            ]]>
+      </description>
       <guid>tunnels.jpg 1678052331.8973422</guid>
     </item>
     <item>
       <title>terraria.jpg</title>
       <link>https://sunspiral.city/img/terraria.jpg</link>
       <url>https://sunspiral.city/img/terraria.jpg</url>
-      <enclosure url="https://sunspiral.city/img/terraria.jpg" length="482044" type="image/jpeg" />
+      <description>
+        <![CDATA[
+                <img src="https://sunspiral.city/img/terraria.jpg" alt="" />
+            ]]>
+      </description>
       <guid>terraria.jpg 1678052331.892342</guid>
     </item>
     <item>
       <title>slimes.jpg</title>
       <link>https://sunspiral.city/img/slimes.jpg</link>
       <url>https://sunspiral.city/img/slimes.jpg</url>
-      <enclosure url="https://sunspiral.city/img/slimes.jpg" length="917361" type="image/jpeg" />
+      <description>
+        <![CDATA[
+                <img src="https://sunspiral.city/img/slimes.jpg" alt="" />
+            ]]>
+      </description>
       <guid>slimes.jpg 1678052331.8893428</guid>
     </item>
     <item>
       <title>self.png</title>
       <link>https://sunspiral.city/img/self.png</link>
       <url>https://sunspiral.city/img/self.png</url>
-      <enclosure url="https://sunspiral.city/img/self.png" length="89472" type="image/png" />
+      <description>
+        <![CDATA[
+                <img src="https://sunspiral.city/img/self.png" alt="" />
+            ]]>
+      </description>
       <guid>self.png 1678052331.8833451</guid>
     </item>
     <item>
       <title>ruins.jpg</title>
       <link>https://sunspiral.city/img/ruins.jpg</link>
       <url>https://sunspiral.city/img/ruins.jpg</url>
-      <enclosure url="https://sunspiral.city/img/ruins.jpg" length="393318" type="image/jpeg" />
+      <description>
+        <![CDATA[
+                <img src="https://sunspiral.city/img/ruins.jpg" alt="" />
+            ]]>
+      </description>
       <guid>ruins.jpg 1678052331.881343</guid>
     </item>
     <item>
       <title>radio.jpg</title>
       <link>https://sunspiral.city/img/radio.jpg</link>
       <url>https://sunspiral.city/img/radio.jpg</url>
-      <enclosure url="https://sunspiral.city/img/radio.jpg" length="509136" type="image/jpeg" />
+      <description>
+        <![CDATA[
+                <img src="https://sunspiral.city/img/radio.jpg" alt="" />
+            ]]>
+      </description>
       <guid>radio.jpg 1678052331.8783417</guid>
     </item>
     <item>
       <title>nightmare.jpg</title>
       <link>https://sunspiral.city/img/nightmare.jpg</link>
       <url>https://sunspiral.city/img/nightmare.jpg</url>
-      <enclosure url="https://sunspiral.city/img/nightmare.jpg" length="2018369" type="image/jpeg" />
+      <description>
+        <![CDATA[
+                <img src="https://sunspiral.city/img/nightmare.jpg" alt="" />
+            ]]>
+      </description>
       <guid>nightmare.jpg 1678052331.8743432</guid>
     </item>
     <item>
       <title>magne.jpg</title>
       <link>https://sunspiral.city/img/magne.jpg</link>
       <url>https://sunspiral.city/img/magne.jpg</url>
-      <enclosure url="https://sunspiral.city/img/magne.jpg" length="1242077" type="image/jpeg" />
+      <description>
+        <![CDATA[
+                <img src="https://sunspiral.city/img/magne.jpg" alt="" />
+            ]]>
+      </description>
       <guid>magne.jpg 1678052331.8593423</guid>
     </item>
     <item>
       <title>greentile.jpg</title>
       <link>https://sunspiral.city/img/greentile.jpg</link>
       <url>https://sunspiral.city/img/greentile.jpg</url>
-      <enclosure url="https://sunspiral.city/img/greentile.jpg" length="181617" type="image/jpeg" />
+      <description>
+        <![CDATA[
+                <img src="https://sunspiral.city/img/greentile.jpg" alt="" />
+            ]]>
+      </description>
       <guid>greentile.jpg 1678052331.8513446</guid>
     </item>
     <item>
       <title>graveyard.jpg</title>
       <link>https://sunspiral.city/img/graveyard.jpg</link>
       <url>https://sunspiral.city/img/graveyard.jpg</url>
-      <enclosure url="https://sunspiral.city/img/graveyard.jpg" length="716973" type="image/jpeg" />
+      <description>
+        <![CDATA[
+                <img src="https://sunspiral.city/img/graveyard.jpg" alt="" />
+            ]]>
+      </description>
       <guid>graveyard.jpg 1678052331.8503437</guid>
     </item>
     <item>
       <title>gel.jpg</title>
       <link>https://sunspiral.city/img/gel.jpg</link>
       <url>https://sunspiral.city/img/gel.jpg</url>
-      <enclosure url="https://sunspiral.city/img/gel.jpg" length="1015894" type="image/jpeg" />
+      <description>
+        <![CDATA[
+                <img src="https://sunspiral.city/img/gel.jpg" alt="" />
+            ]]>
+      </description>
       <guid>gel.jpg 1678052331.8443413</guid>
     </item>
     <item>
       <title>eyeroom.jpg</title>
       <link>https://sunspiral.city/img/eyeroom.jpg</link>
       <url>https://sunspiral.city/img/eyeroom.jpg</url>
-      <enclosure url="https://sunspiral.city/img/eyeroom.jpg" length="484319" type="image/jpeg" />
+      <description>
+        <![CDATA[
+                <img src="https://sunspiral.city/img/eyeroom.jpg" alt="" />
+            ]]>
+      </description>
       <guid>eyeroom.jpg 1678052331.8373406</guid>
     </item>
     <item>
       <title>epicentre.jpg</title>
       <link>https://sunspiral.city/img/epicentre.jpg</link>
       <url>https://sunspiral.city/img/epicentre.jpg</url>
-      <enclosure url="https://sunspiral.city/img/epicentre.jpg" length="409708" type="image/jpeg" />
+      <description>
+        <![CDATA[
+                <img src="https://sunspiral.city/img/epicentre.jpg" alt="" />
+            ]]>
+      </description>
       <guid>epicentre.jpg 1678052331.8333426</guid>
     </item>
     <item>
       <title>digles.jpg</title>
       <link>https://sunspiral.city/img/digles.jpg</link>
       <url>https://sunspiral.city/img/digles.jpg</url>
-      <enclosure url="https://sunspiral.city/img/digles.jpg" length="974127" type="image/jpeg" />
+      <description>
+        <![CDATA[
+                <img src="https://sunspiral.city/img/digles.jpg" alt="" />
+            ]]>
+      </description>
       <guid>digles.jpg 1678052331.829342</guid>
     </item>
     <item>
       <title>cube.jpg</title>
       <link>https://sunspiral.city/img/cube.jpg</link>
       <url>https://sunspiral.city/img/cube.jpg</url>
-      <enclosure url="https://sunspiral.city/img/cube.jpg" length="1165246" type="image/jpeg" />
+      <description>
+        <![CDATA[
+                <img src="https://sunspiral.city/img/cube.jpg" alt="" />
+            ]]>
+      </description>
       <guid>cube.jpg 1678052331.823343</guid>
     </item>
     <item>
       <title>crown.jpg</title>
       <link>https://sunspiral.city/img/crown.jpg</link>
       <url>https://sunspiral.city/img/crown.jpg</url>
-      <enclosure url="https://sunspiral.city/img/crown.jpg" length="839777" type="image/jpeg" />
+      <description>
+        <![CDATA[
+                <img src="https://sunspiral.city/img/crown.jpg" alt="" />
+            ]]>
+      </description>
       <guid>crown.jpg 1678052331.8163438</guid>
     </item>
     <item>
       <title>control.jpg</title>
       <link>https://sunspiral.city/img/control.jpg</link>
       <url>https://sunspiral.city/img/control.jpg</url>
-      <enclosure url="https://sunspiral.city/img/control.jpg" length="765707" type="image/jpeg" />
+      <description>
+        <![CDATA[
+                <img src="https://sunspiral.city/img/control.jpg" alt="" />
+            ]]>
+      </description>
       <guid>control.jpg 1678052331.8113465</guid>
     </item></channel>
 </rss> 

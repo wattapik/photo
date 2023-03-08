@@ -69,8 +69,6 @@ def generate_rss_header():
       <hour>8</hour>
       <hour>9</hour>
       <hour>10</hour>
-      <hour>11</hour>
-      <hour>12</hour>
     </skipHours>
     <image>
       <url>{ICON}</url>
@@ -85,7 +83,11 @@ def generate_rss_part(item):
       <title>{item[0]}</title>
       <link>{URL}/img/{item[0]}</link>
       <url>{URL}/img/{item[0]}</url>
-      <enclosure url="{URL}/img/{item[0]}" length="{os.path.getsize("img/" + item[0])}" type="{mimetypes.guess_type(item[0])[0]}" />
+      <description>
+        <![CDATA[
+                <img src="{URL}/img/{item[0]}" alt="" />
+            ]]>
+      </description>
       <guid>{item[0]} {item[1]}</guid>
     </item>'''
 
