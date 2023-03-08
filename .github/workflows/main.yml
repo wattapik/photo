@@ -14,15 +14,10 @@ jobs:
       - name: git
         run: 
           git config --local user.email "actions@github.com" 
-          
           git config --local user.name actions-user
-          
           if ! git diff --exit-code; then
               git add index.html
-              
               git add rss
-              
               git commit -am "GH Action Files added $(date)"
-              
               git push -f origin main
           fi
