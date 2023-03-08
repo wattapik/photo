@@ -18,10 +18,10 @@ jobs:
       - name: gitthree
         run: 
           if ! git diff --exit-code; then
-                git add index.html
-                git add rss
-                git commit -am "GH Action Files added $(date)"
-                git push -f origin main
-            fi
+            git add index.html
+            git add rss
+            git commit -am "GH Action Files added $(date)"
+            git push -f origin main
+          fi
           
           
