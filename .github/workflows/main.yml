@@ -12,9 +12,9 @@ jobs:
       - name: Run a one-line script
         run: python generate.py
       - name: git email
-      - run: git config --global user.email "actions@github.com" 
+        run: git config --global user.email "actions@github.com" 
       - name: git name 
-      - run: git config --global user.name actions-user
+        run: git config --global user.name actions-user
       - name: check for changes
         run: git status
       - name: stage changed files
