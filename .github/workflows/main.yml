@@ -1,19 +1,25 @@
-'on':
+on:
+  # Runs on pushes targeting the default branch
   push:
-    branches:
-      - main
+    branches: ["main"]
+  
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v1
       - name: Run a one-line script
         run: python generate.py
       - name: gitone
-        run: git config --local user.email "actions@github.com"
+        run: git config --local user.email "actions@github.com" 
       - name: gittwo
         run: git config --local user.name actions-user
       - name: gitthree
-        run: >-
-          if ! git diff --exit-code; then git add index.html git add rss git
-          commit -am "GH Action Files added $(date)" git push -f origin main fi
+        run: 
+            if ! git diff --exit-code; then
+                git add index.html;
+                git add rss;
+                git commit -am "GH Action Files added $(date)";
+                git push -f origin main;
+            fi
