@@ -107,7 +107,7 @@ def generate_rss(image_list):
 def update_image_list():
   with open('current', 'w', encoding="utf-8") as f:
      for filename in os.listdir('img'):
-        f.write(f'{filename}END_NAME{os.path.getmtime("img/" + filename)}\n')
+        f.write(f'{filename}END_NAME{os.path.getctime("img/" + filename)}\n')
 
 def get_twenty_newest_images_as_list(image_list):
   image_list = sorted(image_list, key=lambda t: t[1])
