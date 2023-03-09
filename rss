@@ -22,9 +22,21 @@
       <link>https://sunspiral.city</link>
     </image>
     <description>⭕ sunspiral city</description>
-    <lastBuildDate>Wed, 08 Mar 2023 17:29:40 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Mar 2023 23:36:46 GMT</lastBuildDate>
     <copyright>© TED A. ⭕ 2021-2023</copyright>
     
+    <item>
+      <title>tedandrsynchan.png</title>
+      <link>https://sunspiral.city/img/tedandrsynchan.png</link>
+      <url>https://sunspiral.city/img/tedandrsynchan.png</url>
+      <description>
+        <![CDATA[
+                <img src="https://sunspiral.city/img/tedandrsynchan.png" alt="" />
+            ]]>
+      </description>
+      <pubDate>Thu, 09 Mar 2023 23:35:34 GMT</pubDate>
+      <guid>tedandrsynchan.png 1678404934.5941103</guid>
+    </item>
     <item>
       <title>torcher.jpg</title>
       <link>https://sunspiral.city/img/torcher.jpg</link>
@@ -252,17 +264,5 @@
       </description>
       <pubDate>Sun, 05 Mar 2023 21:38:51 GMT</pubDate>
       <guid>crown.jpg 1678052331.8163438</guid>
-    </item>
-    <item>
-      <title>control.jpg</title>
-      <link>https://sunspiral.city/img/control.jpg</link>
-      <url>https://sunspiral.city/img/control.jpg</url>
-      <description>
-        <![CDATA[
-                <img src="https://sunspiral.city/img/control.jpg" alt="" />
-            ]]>
-      </description>
-      <pubDate>Sun, 05 Mar 2023 21:38:51 GMT</pubDate>
-      <guid>control.jpg 1678052331.8113465</guid>
     </item></channel>
 </rss> 
