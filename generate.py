@@ -71,7 +71,7 @@ def generate_rss_header():
       <hour>10</hour>
     </skipHours>
     <image>
-      <url>{ICON}</url>
+      <url>/{ICON}</url>
       <title>{PAGE_TITLE}</title>
       <link>{URL}</link>
     </image>
